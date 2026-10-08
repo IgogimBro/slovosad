@@ -2,9 +2,11 @@
 
 Локальное приложение для практики русского чтения и правописания. React, TypeScript, Vite, Tailwind CSS, React Router, IndexedDB, Recharts, Web Speech API и PWA. Аккаунт и сервер для данных не нужны.
 
+**Открыть приложение:** https://igogimbro.github.io/slovosad/
+
 ## Запуск готовой сборки
 
-В папке проекта уже есть `dist/`. Нужен Node.js 22+ (проверенная версия — 24.19.0).
+В поставляемом ZIP уже есть `dist/`. При клонировании GitHub-репозитория сначала выполните `pnpm install --frozen-lockfile` и `pnpm build`, чтобы создать эту папку. Готовая сборка для GitHub Pages хранится в `docs/`. Нужен Node.js 22+ (проверенная версия — 24.19.0).
 
 ```powershell
 node scripts/serve.mjs
